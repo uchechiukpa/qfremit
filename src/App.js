@@ -1,14 +1,32 @@
 import "./App.css";
-import Navbar from "./components/navbar/navbar";
-import Services from "./components/services/services";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Login from "./components/authentication/login/login";
+import ForgotPassword from "./components/authentication/forgotPassword/forgotpassword";
+import SignUp from "./components/authentication/signup/signup";
+import ResetLinkSent from "./components/authentication/resend-link/resend-link";
 
-function App() {
+
+
+export default function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <Services />
-    </div>
+    <BrowserRouter>
+      <Routes>
+      <Route path="/login" element={<Login />} />
+      <Route path="/forgotpassword" element={<ForgotPassword />} />
+      <Route path="/signup" element={<SignUp />} />
+      <Route path="/resend-link" element={<ResetLinkSent />} />
+        {/* <Route path="/" element={<Layout />}>
+          <Route index element={<Home />} />
+          <Route path="blogs" element={<Blogs />} />
+          <Route path="contact" element={<Contact />} />
+          <Route path="*" element={<NoPage />} />
+        </Route> */}
+      </Routes>
+    </BrowserRouter>
   );
 }
 
-export default App;
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+

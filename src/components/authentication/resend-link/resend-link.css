@@ -1,0 +1,114 @@
+.reset-link-sent-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: left; 
+    height: 100vh;
+    background-image: url('../BackgroundImage.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .logo {
+    display: flex;
+    align-items: left;
+    text-align: left;
+    /* justify-content: left; */
+    /* align-items: left; */
+    max-width: 500px;
+    /* width: 50%; */
+    /* padding: 20px;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    /* align-items: center; */
+    /* justify-content: left; */
+  }
+  
+  .logo img {
+    width: 50px;
+  }
+  .logo h1{
+    font-family: 'Itim';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #F2F2F2;
+  }
+  
+  .reset-link-sent-box {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    padding: 60px 30px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background: #FFFFFF;
+    border-radius: 8px;
+  }
+  
+  .reset-link-sent-header {
+    display: flex;
+    align-items: left;
+    margin-bottom: 20px;
+    font-family: 'Rubik';
+
+  }
+  
+  .reset-link-sent-logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .reset-link-sent-title {
+    font-size: 28px;
+    margin: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.03em;
+
+    color: #F2994A;
+  }
+
+
+  
+  .reset-link-sent-text {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+  }
+
+  .reset-link-sent-second-text{
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 20 0 0 0;
+
+  }
+  
+  .reset-link-sent-text strong {
+    font-weight: bold;
+  }
+  
+  .reset-link-sent-text a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .reset-link-sent-text a:hover {
+    text-decoration: underline;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    .reset-link-sent-box {
+      max-width: 90%;
+    }
+  }
+  
+  
+  
