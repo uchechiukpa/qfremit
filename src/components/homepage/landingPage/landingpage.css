@@ -1,0 +1,149 @@
+.landing-page-container {
+  max-width: 1200px;
+  width: 70%;
+  margin: auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+.landing-page-section {
+  display: flex;
+}
+
+.landing-page-section h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 74px;
+  letter-spacing: -0.0324em;
+  color: #f2994a;
+  margin-bottom: 0;
+}
+
+.landing-page-section p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.04em;
+  color: rgba(82, 42, 28, 0.61);
+  word-wrap: break-word;
+}
+
+
+
+.landing-page-login-button {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+  color: #e67b3b;
+  padding: 15px 30px;
+}
+
+.landing-page-signup-button {
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
+  border-radius: 5px;
+  color: #e67b3b;
+  padding: 15px 30px;
+  margin-left: 20px;
+}
+.landing-page-section p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: -0.04em;
+  color: rgba(82, 42, 28, 0.61);
+}
+
+.exchange-rate-div-container {
+  margin-top: 20px;
+
+}
+.exchange-rate-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.exchange-rate-column {
+  width: calc(33.33% - 10px);
+  margin: 5px;
+}
+
+.exchange-rate-sender {
+  display: flex;
+  justify-content: space-between;
+}
+.exchange-rate-amount{
+    border-bottom: 1px solid #D9D9D9;
+}
+.exchange-rate-seperator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.exchange-rate-amount p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+
+.exchange-rate-amount h1 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 26px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+.exchange-rate-currency {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #D9D9D9;
+}
+.exchange-rate-div-currency {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.exchange-rate-div-currency p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 26px;
+  letter-spacing: -0.04em;
+  color: #000000;
+}
+
+.exchange-rate-receiever {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 769px) {
+  .landing-page-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exchange-rate-div {
+    flex-direction: column;
+  }
+
+  .exchange-rate-column {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

@@ -1,0 +1,12 @@
+.sidebar-header{
+    display: flex;
+    align-items: center;
+}
+
+.sidebar-section{
+    margin-top: 20px;
+}
+.sidebar{
+    display: flex;
+    align-items: center;
+}

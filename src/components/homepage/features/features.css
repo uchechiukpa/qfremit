@@ -1,0 +1,47 @@
+.features-flex-container {
+  margin: 50px auto ;
+  max-width: 1200px;
+  width: 70%;
+}
+.features-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+  background: #f2994a;
+  border: 0.728972px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(38.271px);
+  border-radius: 14.5794px;
+}
+.features-text {
+  padding: 0 30px;
+}
+.features-card-title-top {
+  font-family: "Plus Jakarta Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 140%;
+  /* identical to box height, or 56px */
+  margin: 0;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+
+  /* White */
+
+  color: #ffffff;
+
+  opacity: 0.8;
+  /* filter: blur(20.4112px); */
+}
+.features-card-title-bottom {
+  font-family: "Montserrat";
+  margin: 0;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  width: 60%;
+  max-width:800px;
+}

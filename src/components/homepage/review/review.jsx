@@ -1,9 +1,7 @@
 import React from "react";
-import "./services.css";
+
 import Image1 from "./image1.png";
 import Image2 from "./image2.png";
-import Image3 from "./image3.png";
-import Image4 from "./image4.png";
 
 const Card = ({ imageUrl, imageClass, titleTop, titleBottom }) => {
   return (
@@ -22,26 +20,23 @@ const cards = [
     id: 1,
     imageUrl: Image2,
     imageClass: "image-two",
-    titleTop: "Card 1",
-    titleBottom: "Bottom Text 1",
+    name: "Ayobami Sileto",
+    occupation: "Photographic Designer",
+    body: "My father exclusively uses the SwiftTransfer platform and states that his funds are promptly processed, he has complete trust in the platform.",
+    rating: 5,
   },
   {
     id: 2,
-    imageUrl: Image3,
-    imageClass: "image-three",
-    titleTop: "Card 2",
-    titleBottom: "Bottom Text 2",
-  },
-  {
-    id: 3,
-    imageUrl: Image4,
-    imageClass: "image-four",
-    titleTop: "Card 3",
-    titleBottom: "Bottom Text 3",
+    imageUrl: Image2,
+    imageClass: "image-two",
+    name: "Ayobami Sileto",
+    occupation: "Photographic Designer",
+    body: "My father exclusively uses the SwiftTransfer platform and states that his funds are promptly processed, he has complete trust in the platform.",
+    rating: 5,
   },
 ];
 
-function Services() {
+function Review() {
   return (
     <div className="flex-container">
       <div className="grid-container">
@@ -63,4 +58,4 @@ function Services() {
   );
 }
 
-export default Services;
+export default Review;
