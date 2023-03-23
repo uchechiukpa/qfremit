@@ -51,7 +51,7 @@ const LandingPage = () => {
           <div className="exchange-rate-column exchange-rate-receiever">
             <div className="exchange-rate-amount">
               <p>You Get</p>
-              <p>40.00</p>
+              <h1>40.00</h1>
             </div>
             <div className="exchange-rate-currency">
               <p>United States Dollar </p>

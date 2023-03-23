@@ -8,6 +8,9 @@ import ResetLinkSent from "./components/authentication/resend-link/resend-link";
 import ResetPassword from "./components/authentication/reset-password/reset-password";
 import PasswordRedirect from "./components/authentication/password-redirect/password-redirect";
 import HomePage from "./components/homepage";
+import TermsAndConditions from "./components/homepage/termsandconditions/termsandconditions";
+import Disclaimer from "./components/homepage/disclaimer/disclaimer";
+import PrivacyPolicy from "./components/homepage/privacypolicy/privacypolicy";
 
 
 
@@ -23,12 +26,9 @@ export default function App() {
       <Route path="/resend-link" element={<ResetLinkSent />} />
       <Route path="/reset-password" element={<ResetPassword />} />
       <Route path="/password-redirect" element={<PasswordRedirect />} />
-        {/* <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
-          <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} />
-        </Route> */}
+      <Route path='/termsandconditions' elememt={<TermsAndConditions />} />
+      <Route path='/disclaimer' elememt={<Disclaimer />} />
+      <Route path='/privacypolicy' elememt={<PrivacyPolicy />} />
       </Routes>
     </BrowserRouter>
   );

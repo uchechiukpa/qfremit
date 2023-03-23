@@ -10,8 +10,8 @@ const Card = ({ imageUrl, imageClass, titleTop, titleBottom }) => {
     <div className={`card ${imageClass}`}>
       <img className="card-img" src={imageUrl} alt={titleTop} />
       <div className="card-content">
-        <div className="card-title-top">{titleTop}</div>
-        <div className="card-title-bottom">{titleBottom}</div>
+        <h1 className="card-title-top">{titleTop}</h1>
+        <p className="card-title-bottom">{titleBottom}</p>
       </div>
     </div>
   );
@@ -22,22 +22,22 @@ const cards = [
     id: 1,
     imageUrl: Image2,
     imageClass: "image-two",
-    titleTop: "Card 1",
-    titleBottom: "Bottom Text 1",
+    titleTop: "Pay",
+    titleBottom: "Maximize the value of your money by paying for school fees, vendor expenses, and bills at competitive rates.",
   },
   {
     id: 2,
     imageUrl: Image3,
     imageClass: "image-three",
-    titleTop: "Card 2",
-    titleBottom: "Bottom Text 2",
+    titleTop: "Send",
+    titleBottom: "Enjoy free and seamless international money transfers to banks or mobile wallets of your choice!",
   },
   {
     id: 3,
     imageUrl: Image4,
     imageClass: "image-four",
-    titleTop: "Card 3",
-    titleBottom: "Bottom Text 3",
+    titleTop: "Receive",
+    titleBottom: "Expand your financial horizons with the ability to receive funds in multiple currencies! Open multiple currency wallets to receive payments from various countries worldwide.",
   },
 ];
 

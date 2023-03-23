@@ -1,0 +1,86 @@
+.review-container {
+  margin: 10rem auto;
+  max-width: 1200px;
+  width: 70%;
+}
+
+.review-grid-container {
+  background-color: #f2994a;
+  display: flex;
+  margin-left: 100px;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 700px;
+  padding-bottom: 3rem;
+}
+.review-grid {
+  position: absolute;
+  bottom: 60px;
+  right: 0px;
+  z-index: 10;
+}
+
+.review-card {
+  padding: 30px;
+  height: 300px;
+  width: 40%;
+  background: #ffffff;
+  box-shadow: 0px 57.8668px 123.121px rgba(21, 21, 21, 0.15);
+  border-radius: 15px;
+}
+
+.review-card-name {
+  text-align: center;
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  /* line-height: 47px; */
+  color: #000000;
+}
+
+.review-card-occupation {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 12.0849px; */
+  /* line-height: 17px; */
+  text-align: center;
+  color: #522a1c;
+}
+
+.reiew-card-body {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  /* font-size: 12.3121px; */
+  /* line-height: 166.6%; */
+
+  text-align: center;
+  /* width: 50%; */
+  color: rgba(82, 42, 28, 0.61);
+}
+
+.review-image-container-two {
+  position: absolute;
+  bottom: 130px;
+  right: 150px;
+  z-index: 2;
+  /* left: 10px; */
+}
+
+.review-image-container {
+  position: absolute;
+  bottom: -50px;
+  right: -50px;
+  z-index: 2;
+}
+
+.review-header {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #f2994a;
+}

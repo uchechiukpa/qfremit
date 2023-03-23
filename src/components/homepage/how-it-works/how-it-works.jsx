@@ -5,11 +5,11 @@ import apple from "./apple.png";
 
 const Card = ({ titleId, cardClass, titleTop, titleBottom }) => {
   return (
-    <div className={`card ${cardClass}`}>
+    <div className= {`operation-card-class ${cardClass}`}>
       <div className="operations-card-content">
-        <h1 className="operations-card-column card-titleId-top">{titleId}</h1>
-        <h2 className="operations-card-column card-title-top">{titleTop}</h2>
-        <p className="operations-card-column card-title-bottom">{titleBottom}</p>
+        <h1 className="operations-card-column operation-card-titleId-top">{titleId}</h1>
+        <h3 className="operations-card-column operation-card-title-top">{titleTop}</h3>
+        <p className="operations-card-column operation-card-title-bottom">{titleBottom}</p>
       </div>
     </div>
   );
@@ -47,17 +47,17 @@ function Operations() {
     <div className="operation-container-div">
       <div className="operation-container">
         <div className="operations-flex-container">
-          <div>
+          <div className="operation-left-div">
             <h3>How it works</h3>
 
             <p>Start your journey in just 3 simple steps</p>
-            <div>
-              <img src={google} alt="google" />
-              <img src={apple} alt="apple" />
+            <div className="app-google-store">
+              <img src={google} alt="google" className="google-store" />
+              <img src={apple} alt="apple" className="app-store" />
             </div>
           </div>
 
-          <div className="grid-container">
+          <div className="operations-grid-container">
             {cards.map((card) => (
               <Card
                 key={card.id}

@@ -1,0 +1,15 @@
+.terms-conditions-container {
+  width: 70%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.terms-conditions-container p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #000000;
+}

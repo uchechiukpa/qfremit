@@ -14,7 +14,6 @@ const Card = ({ imageUrl, imageClass, titleTop, titleBottom }) => {
       <div className="features-image-container">
         <img className="features-card-img" src={imageUrl} alt={titleTop} />
       </div>
-      {/* <div className="features-card-content"></div> */}
     </div>
   );
 };
@@ -49,7 +48,7 @@ const cards = [
 function Features() {
   return (
     <div className="features-flex-container">
-      <h2>Features</h2>
+      <h2 className="features-header">Features</h2>
       <div className="features-grid-container">
         {cards.map((card) => (
           <Card

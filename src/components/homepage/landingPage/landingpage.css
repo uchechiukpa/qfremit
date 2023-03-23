@@ -2,8 +2,9 @@
   max-width: 1200px;
   width: 70%;
   margin: auto;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow:  0 4px 2px -2px rgba(0, 0, 0, 0.2);
   padding: 20px;
+  background-color: #fff;
   /* align-items: center; */
   /* justify-content: center; */
 }
@@ -38,6 +39,7 @@
 .landing-page-login-button {
   background: #ffffff;
   box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
+  border: none;
   border-radius: 5px;
   color: #e67b3b;
   padding: 15px 30px;
@@ -46,6 +48,7 @@
 .landing-page-signup-button {
   background: #ffffff;
   box-shadow: 0 0 10px rgba(128, 128, 128, 0.2);
+  border: none;
   border-radius: 5px;
   color: #e67b3b;
   padding: 15px 30px;
@@ -132,7 +135,17 @@
   justify-content: space-between;
 }
 
+
+@media only screen and (max-width: 1024px) {
+  .landing-page-container{
+    width: 90%;
+    margin-left: 40px
+  }
+}
 @media only screen and (max-width: 769px) {
+  .landing-page-container{
+    width: 100%
+  }
   .landing-page-section {
     display: flex;
     flex-direction: column;
