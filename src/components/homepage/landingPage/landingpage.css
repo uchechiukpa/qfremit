@@ -1,10 +1,10 @@
 .landing-page-container {
-  max-width: 1200px;
+  /* max-width: 1200px;
   width: 70%;
-  margin: auto;
+  margin: auto; */
   box-shadow:  0 4px 2px -2px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  background-color: #fff;
+  /* padding: 20px; */
+  /* background-color: #fff; */
   /* align-items: center; */
   /* justify-content: center; */
 }
@@ -136,27 +136,4 @@
 }
 
 
-@media only screen and (max-width: 1024px) {
-  .landing-page-container{
-    width: 90%;
-    margin-left: 40px
-  }
-}
-@media only screen and (max-width: 769px) {
-  .landing-page-container{
-    width: 100%
-  }
-  .landing-page-section {
-    display: flex;
-    flex-direction: column;
-  }
 
-  .exchange-rate-div {
-    flex-direction: column;
-  }
-
-  .exchange-rate-column {
-    width: 100%;
-    margin: 5px 0;
-  }
-}

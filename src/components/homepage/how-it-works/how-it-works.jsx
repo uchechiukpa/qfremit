@@ -5,12 +5,10 @@ import apple from "./apple.png";
 
 const Card = ({ titleId, cardClass, titleTop, titleBottom }) => {
   return (
-    <div className= {`operation-card-class ${cardClass}`}>
-      <div className="operations-card-content">
-        <h1 className="operations-card-column operation-card-titleId-top">{titleId}</h1>
-        <h3 className="operations-card-column operation-card-title-top">{titleTop}</h3>
-        <p className="operations-card-column operation-card-title-bottom">{titleBottom}</p>
-      </div>
+    <div className={`flex h-52 items-center shadow-3xl my-5 text-left  ${cardClass}`}>
+      <h1 className="lg:text-5xl md:text-5xl sm:text-3xl font-extrabold basis-1/4 pl-8">{titleId}</h1>
+      <h3 className="lg:text-xl md:text-xl sm:text-lg font-bold basis-1/4 ">{titleTop}</h3>
+      <p className="tlg:text-lg md:text-lg sm:text-md font-bold basis-1/2 px-5">{titleBottom}</p>
     </div>
   );
 };
@@ -20,54 +18,52 @@ const cards = [
     id: 1,
     titleId: 1,
     titleTop: "CREATE YOUR FREE ACCOUNT",
-    cardClass: 'card-one-class',
+    cardClass: "text-maincolor",
     titleBottom:
       "Sign up for a free SwiftTransfer account and complete the identity verification process.",
   },
   {
     id: 2,
     titleId: 2,
-    titleTop: "FUND YOUR WALLET",
-    cardClass: 'card-two-class',
+    titleTop: "ENTER TRANSACTION DETAILS",
+    cardClass: "bg-maincolor text-white",
     titleBottom:
-      "Transfer money at no cost from your bank's mobile app directly to your SwiftTransfer Account.",
+      "Select recipient country, beneficiary details, amount you wish to send",
   },
   {
     id: 3,
     titleId: 3,
-    titleTop: "TRANSFER FUNDS",
-    cardClass: 'card-three-class',
+    titleTop: "PAY",
+    cardClass: "text-maincolor",
     titleBottom:
-      "To transfer funds, simply specify the amount, select the recipient, and initiate the transfer. It's that simple.",
+      "Choose from the various payment options available:bank deposit, credit or debit card",
   },
 ];
 
 function Operations() {
   return (
     <div className="operation-container-div">
-      <div className="operation-container">
-        <div className="operations-flex-container">
-          <div className="operation-left-div">
-            <h3>How it works</h3>
-
-            <p>Start your journey in just 3 simple steps</p>
-            <div className="app-google-store">
-              <img src={google} alt="google" className="google-store" />
-              <img src={apple} alt="apple" className="app-store" />
-            </div>
+      <div className="px-5 flex flex-row sm:flex-col items-center mx-auto max-w-7xl pt-8 ">
+        <div className="lg:basis-1/2 md:basis-1/2">
+          <h3 className="text-maincolor text-sm mb-10">How it works</h3>
+          <p className="text-maincolor font-extrabold lg:text-5xl md:text-4xl sm:text-3xl ">
+            Start your journey <br /> in just 3 simple <br /> steps
+          </p>
+          <div className="flex mt-10">
+            <img src={google} alt="google" className="google-store" />
+            <img src={apple} alt="apple" className="app-store" />
           </div>
-
-          <div className="operations-grid-container">
-            {cards.map((card) => (
-              <Card
-                key={card.id}
-                titleTop={card.titleTop}
-                titleBottom={card.titleBottom}
-                titleId={card.titleId}
-                cardClass={card.cardClass}
-              />
-            ))}
-          </div>
+        </div>
+        <div className="lg:basis-1/2 md:basis-1/2">
+          {cards.map((card) => (
+            <Card
+              key={card.id}
+              titleTop={card.titleTop}
+              titleBottom={card.titleBottom}
+              titleId={card.titleId}
+              cardClass={card.cardClass}
+            />
+          ))}
         </div>
       </div>
     </div>

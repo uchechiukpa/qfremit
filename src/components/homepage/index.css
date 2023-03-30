@@ -1,5 +1,6 @@
 .homepage-div{
     background: radial-gradient(35.11% 84.43% at -4.49% 118.98%, #FFFFFF 0%, rgba(211, 76, 26, 0.04) 87.46%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
-    height: 700px;
+    height: 600px;
+    /* position: relative; */
 
 }

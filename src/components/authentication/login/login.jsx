@@ -33,7 +33,7 @@ const Login = () => {
       <div className="login-form-container">
         <form className="login-form" onSubmit={handleSubmit}>
         <h1>Welcome Again!</h1>
-        <p>Don't have an account? <a href="jumia.com">Sign Up</a></p>
+        <p>Don't have an account? <a href="/signup">Sign Up</a></p>
           <h2>Email or Phone number</h2>
           <input
             type="text"
@@ -58,7 +58,7 @@ const Login = () => {
             </button>
           </div>
           <div className="remember-me-container">
-            <label htmlFor="rememberMeCheckbox">
+            {/* <label htmlFor="rememberMeCheckbox">
               <input
                 type="checkbox"
                 id="rememberMeCheckbox"
@@ -66,11 +66,11 @@ const Login = () => {
                 onChange={handleRememberMeToggle}
               />
               Remember Me
-            </label>
-            <a href="/forgotpassword">Forget Password?</a>
+            </label> */}
+            <a href="/forgotpassword" className="pt-6">Forget Password?</a>
           </div>
           <button type="submit" className="continue-button">
-            Continue
+            Login
           </button>
         </form>
       </div>

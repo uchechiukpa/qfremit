@@ -26,9 +26,9 @@ export default function App() {
       <Route path="/resend-link" element={<ResetLinkSent />} />
       <Route path="/reset-password" element={<ResetPassword />} />
       <Route path="/password-redirect" element={<PasswordRedirect />} />
-      <Route path='/termsandconditions' elememt={<TermsAndConditions />} />
-      <Route path='/disclaimer' elememt={<Disclaimer />} />
-      <Route path='/privacypolicy' elememt={<PrivacyPolicy />} />
+      <Route path="/termsandconditions" element={<TermsAndConditions />} /> 
+      <Route path="/privacypolicy" element={<PrivacyPolicy />} /> 
+      <Route path="/disclaimer" element={<Disclaimer />} /> 
       </Routes>
     </BrowserRouter>
   );

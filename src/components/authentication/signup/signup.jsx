@@ -97,11 +97,13 @@ function SignUp() {
           <button type="submit" className="form-button">
             Continue
           </button>
-        </form>
-        <p className="form-footer">
+
+          {/* <p className="form-footer">
           By continuing, you agree to our <a href="/termsofservice">Terms of Service</a> and
           acknowledge our <a href="privacypolicy">Privacy Policy</a>.
-        </p>
+        </p> */}
+        </form>
+
       </div>
     </div>
   );

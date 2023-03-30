@@ -4,7 +4,10 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-color: #f2994a;
+  background-image: url("../BackgroundImage.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
 }
 
 .form-container {

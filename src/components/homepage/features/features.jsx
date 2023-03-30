@@ -6,13 +6,13 @@ import Image3 from "./competitiverates.png";
 
 const Card = ({ imageUrl, imageClass, titleTop, titleBottom }) => {
   return (
-    <div className={`features-card ${imageClass}`}>
-      <div className="features-text">
-        <h2 className="features-card-title-top">{titleTop}</h2>
-        <p className="features-card-title-bottom">{titleBottom}</p>
+    <div className={`flex items-center bg-maincolor opacity-[.81] justify-between my-5 rounded-lg h-72 ${imageClass}`}>
+      <div className="flex flex-col lg:basis-1/2 pl-8">
+        <h2 className="text-white font-extrabold lg:text-4xl md:text-4xl sm-text-3xl">{titleTop}</h2>
+        <p className="lg:text-sm md:text-sm sm:text-xs pt-8 text-white">{titleBottom}</p>
       </div>
-      <div className="features-image-container">
-        <img className="features-card-img" src={imageUrl} alt={titleTop} />
+      <div className="">
+        <img className="" src={imageUrl} alt={titleTop} />
       </div>
     </div>
   );
@@ -22,7 +22,7 @@ const cards = [
   {
     id: 1,
     imageUrl: Image1,
-    imageClass: "features-image-two",
+    imageClass: "",
     titleTop: "QUICK TRANSFER",
     titleBottom:
       "Effortlessly and securely send and receive money globally with our quick transfer service.",
@@ -30,7 +30,7 @@ const cards = [
   {
     id: 2,
     imageUrl: Image2,
-    imageClass: "features-image-three",
+    imageClass: "",
     titleTop: "SAFE & SECURE",
     titleBottom:
       "Rest assured with our secure platform, utilizing advanced encryption and multi-layer security measures for safe transactions.",
@@ -38,7 +38,7 @@ const cards = [
   {
     id: 3,
     imageUrl: Image3,
-    imageClass: "features-image-four",
+    imageClass: "",
     titleTop: "COMPETITIVE RATES",
     titleBottom:
       "Get the best value for your money with our competitive rates and cost-effective services.",
@@ -47,9 +47,9 @@ const cards = [
 
 function Features() {
   return (
-    <div className="features-flex-container">
-      <h2 className="features-header">Features</h2>
-      <div className="features-grid-container">
+    <div className="px-5 mx-auto max-w-7xl lg:mt-20 md:mt-14 sm:mt-14">
+      <h2 className="text-maincolor text-sm">Features</h2>
+      <div className="">
         {cards.map((card) => (
           <Card
             key={card.id}
