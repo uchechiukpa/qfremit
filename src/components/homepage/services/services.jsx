@@ -12,9 +12,13 @@ const Card = ({ imageUrl, imageClass, titleTop, titleBottom }) => {
         <img className="" src={imageUrl} alt={titleTop} />
       </div>
 
-      <div className= "flex flex-col justify-between basis-3/5 py-4 ">
-        <h1 className=" text-4xl text-white text-right font-extrabold mr-5">{titleTop}</h1>
-        <p className="text-white sm:text-xs md:text-sm lg:text-sm mr-5">{titleBottom}</p>
+      <div className="flex flex-col justify-between basis-3/5 py-4 ">
+        <h1 className=" text-4xl text-white text-right font-extrabold mr-5">
+          {titleTop}
+        </h1>
+        <p className="text-white sm:text-xs md:text-sm lg:text-sm mr-5">
+          {titleBottom}
+        </p>
       </div>
     </div>
   );
@@ -25,17 +29,17 @@ const cards = [
     id: 1,
     imageUrl: Image2,
     imageClass: "bg-yellow opacity-[.61]",
-    titleTop: "Pay",
+    titleTop: "Send",
     titleBottom:
-      "Maximize the value of your money by paying for school fees, vendor expenses, and bills at competitive rates.",
+      "You can maximize the value of your money by paying for fees, vendor expenses, bills, business associates and loved ones, all with just a few clicks. Enter the beneficiary's details accurately to initiate the remittance process to 30+ countries.",
   },
   {
     id: 2,
     imageUrl: Image3,
     imageClass: "bg-green opacity-[.61]",
-    titleTop: "Send",
+    titleTop: "Pay",
     titleBottom:
-      "Enjoy free and seamless international money transfers to banks or mobile wallets of your choice!",
+      "Select your preferred payment method: Bank Transfer or Card Payment",
   },
   {
     id: 3,
@@ -43,7 +47,7 @@ const cards = [
     imageClass: "bg-blue opacity-[.61]",
     titleTop: "Receive",
     titleBottom:
-      "Expand your financial horizons with the ability to receive funds in multiple currencies! Open multiple currency wallets to receive payments from various countries worldwide.",
+      "Beneficiaries receive the full amount you expect without losing money to hidden fees or banking deductions",
   },
 ];
 
@@ -64,7 +68,7 @@ function Services() {
           ))}
         </div>
         <div class="sm:hidden md:basis-1/2 lg:basis-1/2">
-          <img src={Image1} className="scale-75"alt="Image2" />
+          <img src={Image1} className="scale-75" alt="Image2" />
         </div>
       </div>
     </div>

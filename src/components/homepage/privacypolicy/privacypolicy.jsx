@@ -293,7 +293,7 @@ function PrivacyPolicy() {
               To register you with a SwiftTransfer account;
             </li>
             <li className="mt-5 ml-5">
-              To fulfil your Transaction / (Airtime Top Up) request;
+              To fulfil your Transaction request;
             </li>
             <li className="mt-5 ml-5">
               To notify you about changes to our services;
@@ -334,7 +334,7 @@ function PrivacyPolicy() {
               website in addition to other endorsements, where you have agreed
               with a third-party review site that we may do so. If you wish to
               update or delete your testimonial, you can contact us by sending
-              an email to <a>hello@swifttransfer.co</a>
+              an email to <a>contact@swifttransfer.co</a>
             </li>
           </ul>
         </div>

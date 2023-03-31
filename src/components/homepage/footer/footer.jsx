@@ -48,16 +48,39 @@ function Footer() {
           <h3 className="text-white">Pages</h3>
           <div className="flex flex-col pt-2">
             <a className="text-brown text-sm pt-2">How it works</a>
-
           </div>
         </div>
         <div className="sm:pt-5 lg:pl-12  md:pr-8">
           <h3 className="text-white">Legal</h3>
           <div className="flex flex-col pt-2">
-            <a href="/privacypolicy" className="text-brown text-sm pt-2">Privacy Policy</a>
-            <a href="/termsandconditions" className="text-brown text-sm pt-2">Terms & conditions</a>
-            <a href="/disclaimer" className="text-brown text-sm pt-2">Disclaimer</a>
+            <a href="/privacypolicy" className="text-brown text-sm pt-2">
+              Privacy Policy
+            </a>
+            <a href="/termsandconditions" className="text-brown text-sm pt-2">
+              Terms & conditions
+            </a>
+            <a href="/disclaimer" className="text-brown text-sm pt-2">
+              Disclaimer
+            </a>
           </div>
+        </div>
+        <div className="sm:pt-5 lg:pl-12  md:pr-8">
+          <h3 className="text-white">
+            Contact
+          </h3>
+
+          <p class="flex items-center text-brown text-sm pt-2 justify-center md:justify-start">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="white"
+              class="mr-3 h-5 w-5"
+            >
+              <path d="M1.5 8.67v8.58a3 3 0 003 3h15a3 3 0 003-3V8.67l-8.928 5.493a3 3 0 01-3.144 0L1.5 8.67z" />
+              <path d="M22.5 6.908V6.75a3 3 0 00-3-3h-15a3 3 0 00-3 3v.158l9.714 5.978a1.5 1.5 0 001.572 0L22.5 6.908z" />
+            </svg>
+            contact@swifttransfer.co
+          </p>
         </div>
       </div>
     </footer>

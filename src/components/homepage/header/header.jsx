@@ -9,17 +9,17 @@ function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <header className="sm:px-5  mx-auto max-w-7xl">
+    <header className="mx-auto max-w-7xl">
       <nav class="flex justify-between mx-auto bg-white items-center">
         <div className="flex items-center justify-start">
           <div className="flex justify-start">
             <img src={headerlogo} alt="header-logo" />
           </div>
 
-          <h3>Swift Transfer</h3>
+          <h3 className="text-maincolor font-black">Swift Transfer</h3>
         </div>
 
-        <div className=" sm:flex sm:flex-col">
+        <div className=" sm:pr-3 sm:flex sm:flex-col">
           <button
             onClick={toggleMenu}
             className="flex md:hidden lg:hidden sm:flex sm:justify-end"
@@ -60,12 +60,12 @@ function Header() {
                 About
               </a>
             </li>
-            {/* <li>
-              <a href="#" className="text-maincolor text-sm font-normal">
-                Services
+            <li>
+              <a href="/process" className="text-maincolor text-sm font-normal">
+                Process
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#" className="text-maincolor text-sm font-normal">
                 Contact
               </a>
