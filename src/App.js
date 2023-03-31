@@ -11,6 +11,7 @@ import HomePage from "./components/homepage";
 import TermsAndConditions from "./components/homepage/termsandconditions/termsandconditions";
 import Disclaimer from "./components/homepage/disclaimer/disclaimer";
 import PrivacyPolicy from "./components/homepage/privacypolicy/privacypolicy";
+import AboutUs from "./components/homepage/aboutUs/about-us";
 
 
 
@@ -20,6 +21,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
       <Route path="/" element={<HomePage />} /> 
+      <Route path="/aboutus" element={<AboutUs />} /> 
       <Route path="/login" element={<Login />} />
       <Route path="/forgotpassword" element={<ForgotPassword />} />
       <Route path="/signup" element={<SignUp />} />

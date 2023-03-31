@@ -56,11 +56,11 @@ function Header() {
               </a>
             </li>
             <li>
-              <a href="#" className="text-maincolor text-sm font-normal">
+              <a href="/aboutus" className="text-maincolor text-sm font-normal">
                 About
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="#" className="text-maincolor text-sm font-normal">
                 Services
               </a>
@@ -69,7 +69,7 @@ function Header() {
               <a href="#" className="text-maincolor text-sm font-normal">
                 Contact
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </nav>

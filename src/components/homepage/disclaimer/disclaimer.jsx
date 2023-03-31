@@ -5,9 +5,10 @@ import "./disclaimer.css";
 
 function Disclaimer() {
   return (
-    <div className="flex flex-col h-screen justify-between">
+    <div >
       <Header />
-      <main className="px-5 mx-auto max-w-7xl">
+      <div className="flex flex-col h-screen justify-between">
+      <main className="px-5 mx-auto max-w-7xl lg:mt-8 md:mt-8 sm:mt-5">
         <h1 className="text-maincolor text-3xl">Disclaimer</h1>
         <p className="mt-5 text-sm font-bold">
           Welcome to SwiftTransfer! By using our website, you agree to the
@@ -88,6 +89,8 @@ function Disclaimer() {
         </p>
       </main>
       <Footer />
+      </div>
+
     </div>
   );
 }
