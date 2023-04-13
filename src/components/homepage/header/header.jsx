@@ -16,7 +16,7 @@ function Header() {
             <img src={headerlogo} alt="header-logo" />
           </div>
 
-          <h3 className="text-maincolor font-black">Swift Transfer</h3>
+          <h3 className="text-maincolor font-black">SwiftTransfer</h3>
         </div>
 
         <div className=" sm:pr-3 sm:flex sm:flex-col">

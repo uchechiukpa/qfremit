@@ -12,7 +12,7 @@ const LandingPage = () => {
     <div className="flex flex-col sm:px-8 max-w-7xl sm:w-full mx-auto bg-white landing-page-container">
       <div className=" flex flex-row sm:flex-col lg:justify-between justify-center items-center">
         <div className="lg:basis-2/5 md:basis-1/2 sm:basis-1/2 lg:pl-5 md:pl-5">
-          <h1 className="text-5xl md:text-4xl sm:text-4xl text-maincolor font-bold sm:w-4/5">
+          <h1 className="text-5xl md:text-4xl sm:text-4xl text-maincolor font-bold sm:w-4/5 font-marope">
             Send money globally, hassle-free with just a few clicks and at
             competitive rates!
           </h1>

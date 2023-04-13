@@ -334,7 +334,7 @@ function PrivacyPolicy() {
               website in addition to other endorsements, where you have agreed
               with a third-party review site that we may do so. If you wish to
               update or delete your testimonial, you can contact us by sending
-              an email to <a>contact@swifttransfer.co</a>
+              an email to <a>contact@swifttransfers.co</a>
             </li>
           </ul>
         </div>

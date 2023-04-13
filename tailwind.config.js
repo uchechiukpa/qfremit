@@ -22,6 +22,8 @@ module.exports = {
     fontFamily: {
       marope: ["Manrope"],
       Montserrat: ["Montserrat"],
+      serif: [ "ui-serif", "Georgia", "Cambria", "Times New Roman", "Times", "serif"],
+      sans: ["Helvetica", "Arial", "sans-serif"]
     },
 
     fontWeight: {
