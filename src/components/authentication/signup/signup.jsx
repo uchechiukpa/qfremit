@@ -1,109 +1,64 @@
 import React, { useState } from "react";
 import "./signup.css";
+import logo from "../boxlogo.png";
 
 function SignUp() {
-  const [firstName, setFirstName] = useState("");
-  const [lastName, setLastName] = useState("");
-  const [phoneNumber, setPhoneNumber] = useState("");
-  const [password, setPassword] = useState("");
-  const [confirmPassword, setConfirmPassword] = useState("");
-  const [termsAgreed, setTermsAgreed] = useState(false);
+  const [selectedUrl, setSelectedUrl] = useState(
+    "https://swifttransfers.co/individualsignup.html"
+  );
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // code to submit form data goes here
+  const handleRadioChange = (e) => {
+    setSelectedUrl(e.target.value);
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (selectedUrl) {
+      window.location.href = selectedUrl;
+    } else {
+      alert("Please select a signup option");
+    }
   };
 
   return (
-    <div className="signup-container">
-      <div className="form-container">
-        <h1 className="form-header">Create an Account</h1>
-        <p className="form-link">
-          Already have an account? <a href="/login">Sign in</a>
+    <div className="lg:w-2/5 mx-auto lg:mt-40 shadow-maincolor bg-gray md:ml-5 sm:ml-5 md:mt-10 sm:mt-10">
+      <div className="signin-password-header">
+        <img className="signin-password-logo" src={logo} alt="logo" />
+        <h1 className="signin-password-title">SwiftTransfer</h1>
+      </div>
+      <div className="flex flex-col">
+        <h1 className="text-maincolor text-2xl font">Sign up Confirmation</h1>
+        <p className="font">
+          Please confirm if it's an <span className="text-maincolor">Individual Sign Up</span> or a{" "}
+          <span className="text-maincolor">Corporate Sign Up</span>
         </p>
-        <form onSubmit={handleSubmit} className="form-group">
-          <label htmlFor="firstName" className="form-label">
-            First Name
+
+        <form onSubmit={handleSubmit} className="flex flex-col mt-10">
+          <div>
             <input
-              type="text"
-              id="firstName"
-              className="form-input"
-              placeholder="Abenni"
-              value={firstName}
-              onChange={(event) => setFirstName(event.target.value)}
+              type="radio"
+              value="https://swifttransfers.co/individualsignup.html"
+              name="signup"
+              onChange={handleRadioChange}
+              defaultChecked
             />
-          </label>
-          <label htmlFor="lastName" className="form-label">
-            Last Name
-            <input
-              type="text"
-              id="lastName"
-              className="form-input"
-              placeholder="abeniakanni@gmail.com"
-              value={lastName}
-              onChange={(event) => setLastName(event.target.value)}
-            />
-          </label>
-          <label htmlFor="phoneNumber" className="form-label">
-            Phone Number
-            <input
-              type="tel"
-              id="phoneNumber"
-              className="form-input"
-              placeholder="08176545678"
-              value={phoneNumber}
-              onChange={(event) => setPhoneNumber(event.target.value)}
-            />
-          </label>
-          <label htmlFor="password" className="form-label">
-            Password
-            <input
-              type="password"
-              id="password"
-              className="form-input"
-              placeholder="••••••••••••"
-              value={password}
-              onChange={(event) => setPassword(event.target.value)}
-            />
-          </label>
-          <label htmlFor="confirmPassword" className="form-label">
-            Confirm Password
-            <input
-              type="password"
-              id="confirmPassword"
-              className="form-input"
-              placeholder="••••••••••••"
-              value={confirmPassword}
-              onChange={(event) => setConfirmPassword(event.target.value)}
-            />
-          </label>
-          <p className="form-text">
-            Password must contain a minimum of 8 characters, with an uppercase
-            letter, a lowercase letter, a number and a special character.
-          </p>
-          <div className="form-checkbox">
-            <input
-              type="checkbox"
-              id="emailUpdates"
-              className="form-checkbox-input"
-              checked={termsAgreed}
-              onChange={() => setTermsAgreed(!termsAgreed)}
-            />
-            <label htmlFor="emailUpdates" className="form-checkbox-label">
-              Please send me SwiftTransfer emails with updates, newsletters,
-              special offers and other information
-            </label>
+            <label className="font ml-5">Individual Sign Up</label>
           </div>
-          <button type="submit" className="form-button">
-            Continue
+
+          <div className="my-5">
+            <input
+              type="radio"
+              value="https://swifttransfers.co/corporatesignup.html"
+              name="signup"
+              onChange={handleRadioChange}
+            />
+            <label className="font ml-5">Corporate Sign Up</label>
+          </div>
+
+          <button className="signin-password-button font " type="submit">
+            Submit
           </button>
-
-          {/* <p className="form-footer">
-          By continuing, you agree to our <a href="/termsofservice">Terms of Service</a> and
-          acknowledge our <a href="privacypolicy">Privacy Policy</a>.
-        </p> */}
         </form>
-
       </div>
     </div>
   );

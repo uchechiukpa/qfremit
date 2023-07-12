@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background-image: url("../BackgroundImage.png");
+  /* background-image: url("../BackgroundImage.png");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 
 }
 
@@ -24,6 +24,30 @@
     border-radius: 8px;
     padding: 30px 60px;
     box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .signin-password-header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .signin-password-logo {
+    height: 50px;
+    /* margin-right: 10px; */
+  }
+
+
+  .signin-password-title {
+    margin: 0;
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: 500;
+    /* font-size: 29px; */
+    line-height: 21px;
+    letter-spacing: -0.03em;
+    color: #f2994a;
   }
   
   .form-header {
@@ -105,7 +129,9 @@
     margin-left: 10px;
     color: #F2994A;
   }
-  
+  .font{
+    font-family: "Rubik";
+  }
   /* .form-checkbox-input:checked + .form-checkbox-input::before {
     background-color: #f2994a;
   } */
@@ -114,6 +140,19 @@
     background-color: #F2994A;
   }
   
+
+  .signin-password-button {
+    font-size: 16px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #f2994a;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid rgba(154, 159, 191, 0.2);
+    border-radius: 8px;
+    margin-top: 5px;
+  }
   .form-button {
     font-size: 16px;
     padding: 10px 20px;
