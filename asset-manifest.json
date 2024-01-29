@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/qfremit/static/css/main.046839a3.css",
+    "main.js": "/qfremit/static/js/main.2cfb0837.js",
+    "static/js/787.dffa97d3.chunk.js": "/qfremit/static/js/787.dffa97d3.chunk.js",
+    "static/media/image1.png": "/qfremit/static/media/image1.adc96fefa67bb08336e9.png",
+    "static/media/phone.png": "/qfremit/static/media/phone.b34b2c55762ffbc1b882.png",
+    "static/media/quicktransfer.png": "/qfremit/static/media/quicktransfer.367861e016b984064e03.png",
+    "static/media/BackgroundImage.png": "/qfremit/static/media/BackgroundImage.28a0e94b83807c18607d.png",
+    "static/media/safesecure.png": "/qfremit/static/media/safesecure.bd6e42e86c830329bfd7.png",
+    "static/media/competitiverates.png": "/qfremit/static/media/competitiverates.d4a6afa46a29511d58c8.png",
+    "static/media/image2.png": "/qfremit/static/media/image2.6ebb48ff76e408da6d51.png",
+    "static/media/image3.png": "/qfremit/static/media/image3.4cf0dc22e25e4f4c1fd7.png",
+    "static/media/image4.png": "/qfremit/static/media/image4.4ffe958882f3467d993f.png",
+    "index.html": "/qfremit/index.html",
+    "main.046839a3.css.map": "/qfremit/static/css/main.046839a3.css.map",
+    "main.2cfb0837.js.map": "/qfremit/static/js/main.2cfb0837.js.map",
+    "787.dffa97d3.chunk.js.map": "/qfremit/static/js/787.dffa97d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.046839a3.css",
+    "static/js/main.2cfb0837.js"
+  ]
+}
