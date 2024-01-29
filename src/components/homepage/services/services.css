@@ -4,7 +4,7 @@
   width: 70%;
 }
 .services-container h2 {
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -48,7 +48,7 @@
 .image-two h1 {
   color: #f2994a;
   text-align: right;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
@@ -61,7 +61,7 @@
 .image-three h1 {
   color: #6fcf97;
   text-align: right;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
@@ -72,13 +72,13 @@
 .image-four h1 {
   color: #2d9cdb;
   text-align: right;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-style: normal;
   font-weight: 800;
   font-size: 40px;
 }
 .card-title-bottom{
-  font-family: 'Montserrat';
+  font-family: 'montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 18px;

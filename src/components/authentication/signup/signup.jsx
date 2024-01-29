@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom';
 import "./signup.css";
 import logo from "../boxlogo.png";
 
 function SignUp() {
   const [selectedUrl, setSelectedUrl] = useState(
-    "https://swifttransfers.co/individualsignup.html"
+    "https://www.qfremit.com/corporatesignup.html"
   );
 
   const handleRadioChange = (e) => {
@@ -37,7 +38,7 @@ function SignUp() {
           <div>
             <input
               type="radio"
-              value="https://swifttransfers.co/individualsignup.html"
+              value="https://www.qfremit.com/individualsignup.html"
               name="signup"
               onChange={handleRadioChange}
               defaultChecked
@@ -48,16 +49,19 @@ function SignUp() {
           <div className="my-5">
             <input
               type="radio"
-              value="https://swifttransfers.co/corporatesignup.html"
+              value="https://www.qfremit.com/corporatesignup.html"
               name="signup"
               onChange={handleRadioChange}
             />
             <label className="font ml-5">Corporate Sign Up</label>
           </div>
 
-          <button className="signin-password-button font " type="submit">
+          <button className="signin-password-button" type="submit">
             Submit
           </button>
+          <Link to='/'>
+            <button className="home-button">Back</button>
+          </Link>
         </form>
       </div>
     </div>

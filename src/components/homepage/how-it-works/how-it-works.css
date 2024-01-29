@@ -18,7 +18,7 @@
 
 .operation-container h2 {
   margin: 0;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -65,7 +65,7 @@
 }
 .operation-card-titleId-top {
   padding: 0 20px;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 54px;
@@ -74,7 +74,7 @@
 }
 .operation-card-title-top {
   padding: 0 10px;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -85,7 +85,7 @@
 }
 .operation-card-title-bottom {
   padding: 0 10px;
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -93,7 +93,7 @@
   width: 70%;
 }
 .operation-left-div h3 {
-  font-family: "Montserrat";
+  font-family: "montserrat";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -103,7 +103,7 @@
 }
 
 .operation-left-div p {
-  font-family: 'Montserrat';
+  font-family: 'montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 54px;

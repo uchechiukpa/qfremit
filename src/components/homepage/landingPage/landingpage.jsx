@@ -1,7 +1,6 @@
 import React from "react";
-import {Link} from 'react-router-dom'
+import {Link} from 'react-router-dom';
 import "./landingpage.css";
-import landingPage from "./landingpage.png";
 import usicon from "./usicon.png";
 import ukicon from "./ukicon.png";
 import seperator from "./seperator.png";
@@ -9,15 +8,15 @@ import downicon from "./downicon.png";
 
 const LandingPage = () => {
   return (
-    <div className="flex flex-col sm:px-8 max-w-7xl sm:w-full mx-auto bg-white landing-page-container">
+    <div className="flex flex-col sm:px-8 max-w-7xl sm:w-full mx-auto lg:pt-20 bg-white landing-page-container">
       <div className=" flex flex-row sm:flex-col lg:justify-between justify-center items-center">
         <div className="lg:basis-2/5 md:basis-1/2 sm:basis-1/2 lg:pl-5 md:pl-5">
-          <h1 className="text-5xl md:text-4xl sm:text-4xl text-maincolor font-bold sm:w-4/5 font-marope">
+          <h1 className="text-5xl md:text-4xl sm:text-4xl text-maincolor font-bold sm:w-4/5 font-manrope">
             Send money globally, hassle-free with just a few clicks and at
             competitive rates!
           </h1>
           <p className="text-brown leading-loose mt-4">
-            SwiftTransfer is an online service that allows you to send money
+            QF Remit is an online service that allows you to send money
             anywhere with our safe and secure platform at no extra fees, with a
             smartphone, tablet or a computer.
           </p>
@@ -31,9 +30,9 @@ const LandingPage = () => {
           </div>
         </div>
 
-        <div className="flex basis-1/2 lg:justify-end md:justify-end sm:justify-center">
+        {/* <div className="flex basis-1/2 lg:justify-end md:justify-end sm:justify-center">
           <img src={landingPage} className="md:scale-75 sm:scale-75" alt="people" />
-        </div>
+        </div> */}
       </div>
 
       <div className="flex flex-row lg:justify-between lg:items-center md:justify-between md:items-center sm:flex-col lg:px-8 md:px-8 lg:mt-8 md:mt-8">

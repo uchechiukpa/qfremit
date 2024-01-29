@@ -121,8 +121,27 @@
   .continue-button:hover {
     background-color: rgb(197, 78, 4);
   }
+
+  .home-button{
+    font-size: 16px;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    color: #f2994a;
+    cursor: pointer;
+    background: #ffffff;
+    border: 1px solid rgba(154, 159, 191, 0.2);
+    border-radius: 8px;
+    margin-top: 5px;
+  }
   
 
+  @media (max-width: 768px) {
+    .home-button{
+      width: 100%;
+    }
+    
+  }
   /* For screens smaller than 600px */
 @media (max-width: 600px) {
     .login-form {

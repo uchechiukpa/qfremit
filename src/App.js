@@ -13,6 +13,7 @@ import Disclaimer from "./components/homepage/disclaimer/disclaimer";
 import PrivacyPolicy from "./components/homepage/privacypolicy/privacypolicy";
 import AboutUs from "./components/homepage/aboutUs/about-us";
 import Process from "./components/homepage/process/process";
+import Faq from "./components/homepage/faq/faq";
 
 
 
@@ -33,6 +34,7 @@ export default function App() {
       <Route path="/termsandconditions" element={<TermsAndConditions />} /> 
       <Route path="/privacypolicy" element={<PrivacyPolicy />} /> 
       <Route path="/disclaimer" element={<Disclaimer />} /> 
+      <Route path="/faq" element={<Faq />} /> 
       </Routes>
     </BrowserRouter>
   );

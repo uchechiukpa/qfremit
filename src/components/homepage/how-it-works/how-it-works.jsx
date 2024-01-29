@@ -20,7 +20,7 @@ const cards = [
     titleTop: "CREATE YOUR FREE ACCOUNT",
     cardClass: "text-maincolor",
     titleBottom:
-      "Sign up for a free SwiftTransfer account and complete the identity verification process.",
+      "Sign up for a free QF Remit account and complete the identity verification process.",
   },
   {
     id: 2,

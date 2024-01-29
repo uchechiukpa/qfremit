@@ -20,8 +20,8 @@ module.exports = {
       lg: {min:"1025px"},
     },
     fontFamily: {
-      marope: ["Manrope"],
-      Montserrat: ["Montserrat"],
+      manrope: ["Manrope"],
+      montserrat: ["Montserrat"],
       serif: [ "ui-serif", "Georgia", "Cambria", "Times New Roman", "Times", "serif"],
       sans: ["Helvetica", "Arial", "sans-serif"]
     },

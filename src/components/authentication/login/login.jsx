@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom';
 import "./login.css";
 
 const Login = () => {
@@ -58,20 +59,14 @@ const Login = () => {
             </button>
           </div>
           <div className="remember-me-container">
-            {/* <label htmlFor="rememberMeCheckbox">
-              <input
-                type="checkbox"
-                id="rememberMeCheckbox"
-                checked={rememberMe}
-                onChange={handleRememberMeToggle}
-              />
-              Remember Me
-            </label> */}
             <a href="/forgotpassword" className="pt-6">Forget Password?</a>
           </div>
           <button type="submit" className="continue-button">
             Login
           </button>
+          <Link to='/'>
+            <button className="home-button">Back</button>
+          </Link>
         </form>
       </div>
     </div>

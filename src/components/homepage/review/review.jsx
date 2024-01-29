@@ -22,18 +22,9 @@ const cards = [
     imageClass: "image-two",
     name: "Ayobami Sileto",
     occupation: "Photographic Designer",
-    body: "My father exclusively uses the SwiftTransfer platform and states that his funds are promptly processed, he has complete trust in the platform.",
+    body: "My father exclusively uses the QF Remit platform and states that his funds are promptly processed, he has complete trust in the platform.",
     rating: 5,
   },
-  // {
-  //   id: 2,
-  //   imageUrl: Image2,
-  //   imageClass: "image-two",
-  //   name: "Ayobami Sileto",
-  //   occupation: "Photographic Designer",
-  //   body: "My father exclusively uses the SwiftTransfer platform and states that his funds are promptly processed, he has complete trust in the platform.",
-  //   rating: 5,
-  // },
 ];
 
 function Review() {
