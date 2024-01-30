@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink, Link } from "react-router-dom";
 import headerlogo from "./logo.png";
 import "./header.css";
 
@@ -51,14 +52,16 @@ function Header() {
             } lg:flex lg:space-x-8 lg:items-center md:flex md:space-x-8 lg:pr-3 md:pr-3 md:items-center`}
           >
             <li>
-              <a href="/" className="text-maincolor text-sm font-normal">
+              <NavLink to="/" className="text-maincolor text-sm font-normal" >Home</NavLink>
+              {/* <a href="/" className="text-maincolor text-sm font-normal">
                 Home
-              </a>
+              </a> */}
             </li>
             <li>
-              <a href="/aboutus" className="text-maincolor text-sm font-normal">
-                About
-              </a>
+              <Link to='/about' className="text-maincolor text-sm font-normal">About</Link>
+              {/* <a href="/aboutus" >
+                
+              </a> */}
             </li>
             <li>
               <a href="/process" className="text-maincolor text-sm font-normal">
