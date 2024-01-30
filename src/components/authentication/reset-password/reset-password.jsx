@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./reset-password.css";
-import logo from "../boxlogo.png";
+import logo from "../logo.png";
 
 const ResetPassword = () => {
   const [password, setPassword] = useState("");
@@ -39,7 +39,7 @@ const ResetPassword = () => {
     <div className="reset-password-container">
       <div className="reset-password-header">
         <img className="reset-password-logo" src={logo} alt="logo" />
-        <h1 className="reset-password-logo-title">SwiftTransfer</h1>
+        <h1 className="reset-password-logo-title">QF Remit</h1>
       </div>
       <div className="reset-password-box">
       <h1 className="reset-password-title">Reset your Password</h1>

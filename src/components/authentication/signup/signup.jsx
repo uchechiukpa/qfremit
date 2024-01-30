@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import {Link} from 'react-router-dom';
 import "./signup.css";
-import logo from "../boxlogo.png";
+import logo from "../logo.png";
 
 function SignUp() {
   const [selectedUrl, setSelectedUrl] = useState(
@@ -25,7 +25,7 @@ function SignUp() {
     <div className="lg:w-2/5 mx-auto lg:mt-40 shadow-maincolor bg-gray md:ml-5 sm:ml-5 md:mt-10 sm:mt-10">
       <div className="signin-password-header">
         <img className="signin-password-logo" src={logo} alt="logo" />
-        <h1 className="signin-password-title">SwiftTransfer</h1>
+        <h1 className="signin-password-title">QF Remit</h1>
       </div>
       <div className="flex flex-col">
         <h1 className="text-maincolor text-2xl font">Sign up Confirmation</h1>

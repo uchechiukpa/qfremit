@@ -1,13 +1,13 @@
 import React from "react";
 import "./resend-link.css";
-import Logo from '../boxlogo.png'
+import Logo from '../logo.png'
 
 const ResetLinkSent = () => {
   return (
     <div className="reset-link-sent-container">
       <div className="logo">
         <img src={Logo} alt="Logo" className="reset-link-sent-logo" />
-        <h1>SwiftTransfer</h1>
+        <h1>QF Remit</h1>
       </div>
       <div className="reset-link-sent-box">
         <div className="reset-link-sent-header">
