@@ -20,7 +20,7 @@ import Faq from "./components/homepage/faq/faq";
 
 export default function App() {
   return (
-    <BrowserRouter basename="qfremit">
+    <BrowserRouter>
       <Routes >
       <Route path="/" element={<HomePage />} /> 
       <Route path="/about" element={<AboutUs />} /> 
