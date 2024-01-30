@@ -22,11 +22,8 @@ export default function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route exact path="/" Component={HomePage}/>
-
-        <Route path="/about" Component={AboutUs}/>
-      {/* <Route path="/" element={<HomePage />} /> 
-      <Route path="/aboutus" element={<AboutUs />} /> 
+      <Route path="/" element={<HomePage />} /> 
+      <Route path="/about" element={<AboutUs />} /> 
       <Route path="/process" element={<Process />} /> 
       <Route path="/login" element={<Login />} />
       <Route path="/forgotpassword" element={<ForgotPassword />} />
@@ -37,7 +34,7 @@ export default function App() {
       <Route path="/termsandconditions" element={<TermsAndConditions />} /> 
       <Route path="/privacypolicy" element={<PrivacyPolicy />} /> 
       <Route path="/disclaimer" element={<Disclaimer />} /> 
-      <Route path="/faq" element={<Faq />} />  */}
+      <Route path="/faq" element={<Faq />} /> 
       </Routes>
       </HashRouter>
   );
