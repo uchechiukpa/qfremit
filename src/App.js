@@ -1,6 +1,6 @@
 import "./App.css";
 import ReactDOM from "react-dom/client";
-import { Route, Routes,HashRouter } from "react-router-dom";
+import { Route, Routes, HashRouter } from "react-router-dom";
 import Login from "./components/authentication/login/login";
 import ForgotPassword from "./components/authentication/forgotPassword/forgotpassword";
 import SignUp from "./components/authentication/signup/signup";
@@ -20,7 +20,7 @@ import Faq from "./components/homepage/faq/faq";
 
 export default function App() {
   return (
-    <HashRouter basename="/qfremit/#/">
+    <HashRouter >
       <Routes>
       <Route path="/" element={<HomePage />} /> 
       <Route path="/about" element={<AboutUs />} /> 
