@@ -1,6 +1,6 @@
 {
-  "homepage": "https://uchechiukpa.github.io/qfremit/#",
-  "name": "swifttransfer",
+  "name": "qfremit",
+  "homepage": "/qfremit/#",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
