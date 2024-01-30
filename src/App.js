@@ -20,7 +20,7 @@ import Faq from "./components/homepage/faq/faq";
 
 export default function App() {
   return (
-    <HashRouter>
+    <HashRouter basename="/qfremit/#/">
       <Routes>
       <Route path="/" element={<HomePage />} /> 
       <Route path="/about" element={<AboutUs />} /> 
