@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/qfremit/static/css/main.046839a3.css",
-    "main.js": "/qfremit/static/js/main.29928c68.js",
+    "main.js": "/qfremit/static/js/main.8d0e32a7.js",
     "static/js/787.dffa97d3.chunk.js": "/qfremit/static/js/787.dffa97d3.chunk.js",
     "static/media/image1.png": "/qfremit/static/media/image1.adc96fefa67bb08336e9.png",
     "static/media/phone.png": "/qfremit/static/media/phone.b34b2c55762ffbc1b882.png",
@@ -14,11 +14,11 @@
     "static/media/image4.png": "/qfremit/static/media/image4.4ffe958882f3467d993f.png",
     "index.html": "/qfremit/index.html",
     "main.046839a3.css.map": "/qfremit/static/css/main.046839a3.css.map",
-    "main.29928c68.js.map": "/qfremit/static/js/main.29928c68.js.map",
+    "main.8d0e32a7.js.map": "/qfremit/static/js/main.8d0e32a7.js.map",
     "787.dffa97d3.chunk.js.map": "/qfremit/static/js/787.dffa97d3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.046839a3.css",
-    "static/js/main.29928c68.js"
+    "static/js/main.8d0e32a7.js"
   ]
 }
