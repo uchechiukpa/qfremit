@@ -1,5 +1,6 @@
 import React from "react";
 import footerlogo from "./boxlogo.png";
+import {Link } from "react-router-dom";
 import "./footer.css";
 
 function Footer() {
@@ -49,24 +50,16 @@ function Footer() {
         <div className="lg:pr-12 md:pr-8 ">
           <h3 className="text-white font-bold">Pages</h3>
           <div className="flex flex-col pt-2">
-            <a className=" text-sm pt-2">Process</a>
-            <a href="/faq" className="text-sm pt-2">
-              FAQ
-            </a>
+            <Link to="/process" className="text-sm pt-2">Process</Link>
+            <Link to="/faq" className="text-sm pt-2">FAQ</Link>
           </div>
         </div>
         <div className="sm:pt-5 lg:pl-12  md:pr-8">
           <h3 className="text-white font-bold">Legal</h3>
           <div className="flex flex-col pt-2">
-            <a href="/privacypolicy" className="text-sm pt-2">
-              Privacy Policy
-            </a>
-            <a href="/termsandconditions" className="text-sm pt-2">
-              Terms & Conditions
-            </a>
-            <a href="/disclaimer" className="text-sm pt-2">
-              Disclaimer
-            </a>
+          <Link to="/privacypolicy" className="text-sm pt-2">Privacy Policy</Link>
+          <Link to="/termsandconditions" className="text-sm pt-2">Terms & Conditions</Link>
+          <Link to="/disclaimer" className="text-sm pt-2">Disclaimer</Link>
           </div>
         </div>
         <div className="sm:pt-5 lg:pl-12  md:pr-8">
