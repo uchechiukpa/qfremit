@@ -1,6 +1,6 @@
 import "./App.css";
 import ReactDOM from "react-dom/client";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes,HashRouter } from "react-router-dom";
 import Login from "./components/authentication/login/login";
 import ForgotPassword from "./components/authentication/forgotPassword/forgotpassword";
 import SignUp from "./components/authentication/signup/signup";
@@ -20,15 +20,11 @@ import Faq from "./components/homepage/faq/faq";
 
 export default function App() {
   return (
-
+    <HashRouter>
       <Routes>
-        <Route exact path="/">
-          <HomePage />
-        </Route>
+        <Route exact path="/" Component={HomePage}/>
 
-        <Route path="/about">
-          <AboutUs/>  
-        </Route>
+        <Route path="/about" Component={AboutUs}/>
       {/* <Route path="/" element={<HomePage />} /> 
       <Route path="/aboutus" element={<AboutUs />} /> 
       <Route path="/process" element={<Process />} /> 
@@ -43,7 +39,7 @@ export default function App() {
       <Route path="/disclaimer" element={<Disclaimer />} /> 
       <Route path="/faq" element={<Faq />} />  */}
       </Routes>
-
+      </HashRouter>
   );
 }
 
