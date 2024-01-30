@@ -1,6 +1,6 @@
 import "./App.css";
 import ReactDOM from "react-dom/client";
-import { Routes, Route , Switch} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Login from "./components/authentication/login/login";
 import ForgotPassword from "./components/authentication/forgotPassword/forgotpassword";
 import SignUp from "./components/authentication/signup/signup";
@@ -21,7 +21,7 @@ import Faq from "./components/homepage/faq/faq";
 export default function App() {
   return (
 
-      <Switch>
+      <Routes>
         <Route exact path="/">
           <HomePage />
         </Route>
@@ -42,7 +42,7 @@ export default function App() {
       <Route path="/privacypolicy" element={<PrivacyPolicy />} /> 
       <Route path="/disclaimer" element={<Disclaimer />} /> 
       <Route path="/faq" element={<Faq />} />  */}
-      </Switch>
+      </Routes>
 
   );
 }
