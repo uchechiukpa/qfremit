@@ -21,20 +21,20 @@ import Faq from "./components/homepage/faq/faq";
 export default function App() {
   return (
     <HashRouter >
-      <Routes>
+      <Routes >
       <Route path="/" element={<HomePage />} /> 
-      <Route path="/about" element={<AboutUs />} /> 
-      <Route path="/process" element={<Process />} /> 
-      <Route path="/login" element={<Login />} />
-      <Route path="/forgotpassword" element={<ForgotPassword />} />
-      <Route path="/signup" element={<SignUp />} />
-      <Route path="/resend-link" element={<ResetLinkSent />} />
-      <Route path="/reset-password" element={<ResetPassword />} />
-      <Route path="/password-redirect" element={<PasswordRedirect />} />
-      <Route path="/termsandconditions" element={<TermsAndConditions />} /> 
-      <Route path="/privacypolicy" element={<PrivacyPolicy />} /> 
-      <Route path="/disclaimer" element={<Disclaimer />} /> 
-      <Route path="/faq" element={<Faq />} /> 
+      <Route path="/qfremit/#/about" element={<AboutUs />} /> 
+      <Route path="/qfremit/#/process" element={<Process />} /> 
+      <Route path="/qfremit/#/login" element={<Login />} />
+      <Route path="/qfremit/#/forgotpassword" element={<ForgotPassword />} />
+      <Route path="/qfremit/#/signup" element={<SignUp />} />
+      <Route path="/qfremit/#/resend-link" element={<ResetLinkSent />} />
+      <Route path="/qfremit/#/reset-password" element={<ResetPassword />} />
+      <Route path="/qfremit/#/password-redirect" element={<PasswordRedirect />} />
+      <Route path="/qfremit/#/termsandconditions" element={<TermsAndConditions />} /> 
+      <Route path="/qfremit/#/privacypolicy" element={<PrivacyPolicy />} /> 
+      <Route path="/qfremit/#/disclaimer" element={<Disclaimer />} /> 
+      <Route path="/qfremit/#/faq" element={<Faq />} /> 
       </Routes>
       </HashRouter>
   );
