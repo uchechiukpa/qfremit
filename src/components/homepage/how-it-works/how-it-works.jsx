@@ -28,7 +28,7 @@ const cards = [
     titleTop: "ENTER TRANSACTION DETAILS",
     cardClass: "bg-maincolor text-white",
     titleBottom:
-      "Select recipient country, beneficiary details, amount you wish to send",
+      "Select recipient country, beneficiary details, amount you wish to send.",
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ const cards = [
     titleTop: "PAY",
     cardClass: "text-maincolor",
     titleBottom:
-      "Choose from the various payment options available:bank deposit, credit or debit card",
+      "Choose from the various payment options available: bank deposit, credit or debit card.",
   },
 ];
 
@@ -45,7 +45,6 @@ function Operations() {
     <div className="operation-container-div">
       <div className="px-5 flex flex-row sm:flex-col items-center mx-auto max-w-7xl pt-8 ">
         <div className="lg:basis-1/2 md:basis-1/2">
-          <h3 className="text-maincolor text-sm mb-10">How it works</h3>
           <p className="text-maincolor font-extrabold lg:text-5xl md:text-4xl sm:text-3xl ">
             Start your journey <br /> in just 3 simple <br /> steps
           </p>

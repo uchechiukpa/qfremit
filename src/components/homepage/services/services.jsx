@@ -39,7 +39,7 @@ const cards = [
     imageClass: "bg-green opacity-[.61]",
     titleTop: "Pay",
     titleBottom:
-      "Select your preferred payment method: Bank Transfer or Card Payment",
+      "Select your preferred payment method: Bank Transfer or Card Payment.",
   },
   {
     id: 3,
@@ -47,7 +47,7 @@ const cards = [
     imageClass: "bg-blue opacity-[.61]",
     titleTop: "Receive",
     titleBottom:
-      "Beneficiaries receive the full amount you expect without losing money to hidden fees or banking deductions",
+      "Beneficiaries receive the full amount you expect without losing money to hidden fees or banking deductions.",
   },
 ];
 

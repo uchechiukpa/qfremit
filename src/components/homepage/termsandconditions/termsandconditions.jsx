@@ -9,7 +9,7 @@ function TermsAndConditions() {
       <Header />
       <main className="px-5 mx-auto max-w-7xl">
         <div className="mt-5">
-          <h1 className="text-maincolor text-2xl">BACKGROUND:</h1>
+          <h1 className="text-maincolor text-2xl">BACKGROUND</h1>
           <p className="mt-5 text-sm">
           These Terms and Conditions dictate your access and usage of the website, encompassing our Application where applicable, and related services ('Service'). By accessing, registering, and using the Service, you are legally bound by these Terms and Conditions. If you do not consent to these terms, refrain from accessing, registering, or using the Service. Your access and use of the Services are consistently governed by these Terms and Conditions and our Privacy Policy. We encourage you to carefully read these Terms and our Privacy Policy.
           </p>
@@ -62,7 +62,7 @@ function TermsAndConditions() {
             </li>
             <li className="mt-5 ml-5">
               <span className="font-bold">Services</span>means Money Transfer
-              services:
+              services.
             </li>
             <li className="mt-5 ml-5">
               <span className="font-bold">Money Transfer</span> means an electronic money transfer using our Services, either within the same country or to another country.
@@ -151,6 +151,9 @@ function TermsAndConditions() {
             Links to Other Websites
           </h2>
           <p className="mt-5 text-sm">
+          This Website may feature links to other sites for your convenience. Unless expressly stated, these sites are beyond our control and that of our affiliates. We bear no responsibility for the content of such websites and disclaim liability for any loss or damage arising from their use. The inclusion of links to other sites on this Website does not constitute an endorsement of the sites or their administrators. Accessing such websites is at your own risk.
+
+          <br/>
           Individuals seeking to link this Website to other sites may do so exclusively to the site's home page (qfremit.com) without prior permission. However, deep linking, referring to links directed to specific pages within the site, requires our express permission.
           </p>
         </div>
@@ -166,7 +169,7 @@ function TermsAndConditions() {
         <div className="mt-5">
           <h2 className="text-brown font-bold text-xl">Disclaimers</h2>
           <p className="mt-5 text-sm">
-          We make no warranty or representation that the Website will meet your requirements, be of satisfactory quality, fit for a specific purpose, free from infringement of third-party rights, compatible with all systems, secure, or that all provided information will be accurate. Additionally, we do not guarantee any specific results from the use of our Service.
+            We make no warranty or representation that the Website will meet your requirements, be of satisfactory quality, fit for a specific purpose, free from infringement of third-party rights, compatible with all systems, secure, or that all provided information will be accurate. Additionally, we do not guarantee any specific results from the use of our Service.
             </p>
             <p className="mt-5 text-sm">
             The Content on this Website is not intended to constitute advice, and it should not be relied upon when making any decisions or taking any action of any kind.
@@ -174,10 +177,10 @@ function TermsAndConditions() {
         </div>
         <div className="mt-5">
           <h2 className="text-brown font-bold text-xl">
-            Availability of the Web Site
+            Availability of the Website
           </h2>
           <p className="mt-5 text-sm">
-          The Service is provided 'as is' and on an 'as available' basis. We give no warranty that the Service will be free of defects or faults. To the fullest extent permitted by law, we provide no warranties, whether express or implied, of fitness for a particular purpose. We do not guarantee that the Website will meet your requirements, be of satisfactory quality, free from infringement of third-party rights, compatible with all systems, secure, or that all provided information will be accurate. Moreover, we do not guarantee any specific results from the use of our Service.
+          The Service is provided <span className="font-bold">as is</span> and on an <span className="font-bold">as available</span> basis. We give no warranty that the Service will be free of defects or faults. To the fullest extent permitted by law, we provide no warranties, whether express or implied, of fitness for a particular purpose. We do not guarantee that the Website will meet your requirements, be of satisfactory quality, free from infringement of third-party rights, compatible with all systems, secure, or that all provided information will be accurate. Moreover, we do not guarantee any specific results from the use of our Service.
           </p>
             <p className="mt-5 text-sm">
             We bear no liability for any disruptions or unavailability of the Website due to external causes including, but not limited to, ISP equipment failure, host equipment failure, communications network failure, power failure, natural events, acts of war, legal restrictions, or censorship.
@@ -207,9 +210,9 @@ function TermsAndConditions() {
           </p>
         </div>
         <div className="mt-5">
-          <h2 className="text-brown font-bold text-xl">Noticess</h2>
+          <h2 className="text-brown font-bold text-xl">Notices</h2>
           <p className="mt-5 text-sm">
-          All notices or communications should be addressed to us at our Premises (refer to the above address) or via email at <span className="text-blue">contact@qfremit.com.</span>Notice shall be considered received three days after dispatch if sent via first-class post, on the same business day if the email is received in full during business hours, and on the following business day if the email is sent on a weekend or public holiday.
+          All notices or communications should be addressed to us at our Premises (refer to the above address) or via email at <a className="text-blue" href="mailto:contact@qfremit.com">contact@qfremit.com</a> Notice shall be considered received three days after dispatch if sent via first-class post, on the same business day if the email is received in full during business hours, and on the following business day if the email is sent on a weekend or public holiday.
           </p>
         </div>
       </main>

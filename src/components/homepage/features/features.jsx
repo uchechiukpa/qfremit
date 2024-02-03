@@ -48,7 +48,7 @@ const cards = [
 function Features() {
   return (
     <div className="px-5 mx-auto max-w-7xl lg:mt-20 md:mt-14 sm:mt-14">
-      <h2 className="text-maincolor text-sm">Features</h2>
+      <h2 className="text-maincolor text-4xl font-extrabold">Features</h2>
       <div className="">
         {cards.map((card) => (
           <Card
