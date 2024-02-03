@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/qfremit/static/css/main.c4c8400f.css",
-    "main.js": "/qfremit/static/js/main.5c7427c3.js",
+    "main.css": "/qfremit/static/css/main.0481bc37.css",
+    "main.js": "/qfremit/static/js/main.1414037b.js",
     "static/js/787.0fbb92e4.chunk.js": "/qfremit/static/js/787.0fbb92e4.chunk.js",
     "static/media/image1.png": "/qfremit/static/media/image1.adc96fefa67bb08336e9.png",
     "static/media/phone.png": "/qfremit/static/media/phone.b34b2c55762ffbc1b882.png",
@@ -13,12 +13,12 @@
     "static/media/image3.png": "/qfremit/static/media/image3.4cf0dc22e25e4f4c1fd7.png",
     "static/media/image4.png": "/qfremit/static/media/image4.4ffe958882f3467d993f.png",
     "index.html": "/qfremit/index.html",
-    "main.c4c8400f.css.map": "/qfremit/static/css/main.c4c8400f.css.map",
-    "main.5c7427c3.js.map": "/qfremit/static/js/main.5c7427c3.js.map",
+    "main.0481bc37.css.map": "/qfremit/static/css/main.0481bc37.css.map",
+    "main.1414037b.js.map": "/qfremit/static/js/main.1414037b.js.map",
     "787.0fbb92e4.chunk.js.map": "/qfremit/static/js/787.0fbb92e4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4c8400f.css",
-    "static/js/main.5c7427c3.js"
+    "static/css/main.0481bc37.css",
+    "static/js/main.1414037b.js"
   ]
 }
