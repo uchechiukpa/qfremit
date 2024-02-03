@@ -55,7 +55,7 @@ function Footer() {
           </div>
         </div>
         <div className="sm:pt-5 lg:pl-12  md:pr-8">
-          <h3 className="text-white font-bold text-sm">Legal</h3>
+          <h3 className="text-white font-bold text-lg">Legal</h3>
           <div className="flex flex-col pt-2">
           <Link to="/privacypolicy" className="text-sm pt-2">Privacy Policy</Link>
           <Link to="/termsandconditions" className="text-sm pt-2">Terms & Conditions</Link>

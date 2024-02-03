@@ -25,15 +25,15 @@ function TermsAndConditions() {
           </p>
           <p className="mt-5 text-sm">
             In the Agreement, the terms{" "}
-            <span className="font-bold">QF Remit</span>,
-            <span className="font-bold">we</span>,
-            <span className="font-bold">us</span>, and{" "}
-            <span className="font-bold">our</span> refer to QF Remit,
+            <span className="font-bold">'QF Remit'</span>,
+            <span className="font-bold">'we'</span>,
+            <span className="font-bold">'us'</span>, and{" "}
+            <span className="font-bold">'our'</span> refer to QF Remit,
             together with its employees, directors, successors, and assigns.
           </p>
           <p className="mt-5 text-sm">
-            The terms <span className="font-bold">you</span> and {" "}
-            <span className="font-bold">your</span> refer to you, the person who
+            The terms <span className="font-bold">'you'</span> and {" "}
+            <span className="font-bold">'your'</span> refer to you, the person who
             has registered to use some or all of the services described in the
             Agreement.
           </p>
@@ -61,7 +61,7 @@ function TermsAndConditions() {
               <span className="font-bold">System</span> collectively refers to any online facilities, tools, services, or information provided by QF Remit through the Website, both presently available and those that may be offered in the future.
             </li>
             <li className="mt-5 ml-5">
-              <span className="font-bold">Services</span>means Money Transfer
+              <span className="font-bold">Services</span> means Money Transfer
               services.
             </li>
             <li className="mt-5 ml-5">
@@ -103,17 +103,17 @@ function TermsAndConditions() {
               <span className="font-bold">Service Provider</span> refers to a local bank, money exchange house, or any other third-party service provider (such as a mobile network operator) in the Destination Country with whom we collaborate to offer services to you.
             </li>
             <li className="mt-5 ml-5">
-              <span className="font-bold">Third Party Provider</span>refers to an online provider authorized by you to issue Payment Instructions on your behalf. Based on the permissions granted, third-party Providers can access your Transaction History and submit Payment Instructions to us as if they were you. Many of these providers are authorized by regulatory bodies like the UK Financial Conduct Authority or their equivalents in the European Economic Area. 
+              <span className="font-bold">Third Party Provider</span> refers to an online provider authorized by you to issue Payment Instructions on your behalf. Based on the permissions granted, third-party Providers can access your Transaction History and submit Payment Instructions to us as if they were you. Many of these providers are authorized by regulatory bodies like the UK Financial Conduct Authority or their equivalents in the European Economic Area. 
               <br/>
 
               If considering a third-party Provider, it's advisable to request and verify their authorization details yourself. Additionally, ensure you are comfortable granting them the authority to issue Payment Instructions on your behalf and access your Account.
             </li>
             <li className="mt-5 ml-5">
-              <span className="font-bold">Transaction</span>means the transfer
+              <span className="font-bold">Transaction</span> means the transfer
               of money using our Services
             </li>
             <li className="mt-5 ml-5">
-              <span className="font-bold">Transaction Amount</span> means the amount of money or the value of that you wish to send to yourself or another Payee. The transaction Amount excludes any applicable Service Fee and is the amount displayed by us on this website or mobile app prior to any foreign exchange conversion.
+              <span className="font-bold">Transaction Amount</span> means the amount of money or the value of that you wish to send to yourself or another Payee. The transaction amount excludes any applicable Service Fee and is the amount displayed by us on this website or mobile app prior to any foreign exchange conversion.
             </li>
             <li className="mt-5 ml-5">
               <span className="font-bold">Transaction History</span> means the
@@ -180,7 +180,7 @@ function TermsAndConditions() {
             Availability of the Website
           </h2>
           <p className="mt-5 text-sm">
-          The Service is provided <span className="font-bold">as is</span> and on an <span className="font-bold">as available</span> basis. We give no warranty that the Service will be free of defects or faults. To the fullest extent permitted by law, we provide no warranties, whether express or implied, of fitness for a particular purpose. We do not guarantee that the Website will meet your requirements, be of satisfactory quality, free from infringement of third-party rights, compatible with all systems, secure, or that all provided information will be accurate. Moreover, we do not guarantee any specific results from the use of our Service.
+          The Service is provided <span className="font-bold">'as is'</span> and on an <span className="font-bold">'as available'</span> basis. We give no warranty that the Service will be free of defects or faults. To the fullest extent permitted by law, we provide no warranties, whether express or implied, of fitness for a particular purpose. We do not guarantee that the Website will meet your requirements, be of satisfactory quality, free from infringement of third-party rights, compatible with all systems, secure, or that all provided information will be accurate. Moreover, we do not guarantee any specific results from the use of our Service.
           </p>
             <p className="mt-5 text-sm">
             We bear no liability for any disruptions or unavailability of the Website due to external causes including, but not limited to, ISP equipment failure, host equipment failure, communications network failure, power failure, natural events, acts of war, legal restrictions, or censorship.
@@ -212,7 +212,7 @@ function TermsAndConditions() {
         <div className="mt-5">
           <h2 className="text-brown font-bold text-xl">Notices</h2>
           <p className="mt-5 text-sm">
-          All notices or communications should be addressed to us at our Premises (refer to the above address) or via email at <a className="text-blue" href="mailto:contact@qfremit.com">contact@qfremit.com</a> Notice shall be considered received three days after dispatch if sent via first-class post, on the same business day if the email is received in full during business hours, and on the following business day if the email is sent on a weekend or public holiday.
+          All notices or communications should be addressed to us at our Premises (refer to the above address) or via email at <a className="text-blue" href="mailto:contact@qfremit.com">contact@qfremit.com</a>. Notice shall be considered received three days after dispatch if sent via first-class post, on the same business day if the email is received in full during business hours, and on the following business day if the email is sent on a weekend or public holiday.
           </p>
         </div>
       </main>
