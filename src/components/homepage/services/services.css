@@ -121,4 +121,12 @@ color: #F2F2F2;
   .cards-container {
     width: 100%;
   }
+  .services-img{
+    display: flex;
+    align-items: center;
+  }
+  .services-img img{
+    height: 120px;
+    width: 120px;
+  }
 }

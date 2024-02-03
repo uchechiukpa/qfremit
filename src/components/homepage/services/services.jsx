@@ -8,7 +8,7 @@ import Image4 from "./image4.png";
 const Card = ({ imageUrl, imageClass, titleTop, titleBottom }) => {
   return (
     <div className={` flex rounded-lg my-5  h-72 ${imageClass}`}>
-      <div className=" flex basis-3/5 justify-center">
+      <div className=" flex basis-2/5 md:basis-3/5  lg:basis-3/5 justify-center services-img">
         <img className="" src={imageUrl} alt={titleTop} />
       </div>
 
@@ -16,7 +16,7 @@ const Card = ({ imageUrl, imageClass, titleTop, titleBottom }) => {
         <h1 className=" text-4xl text-white text-right font-extrabold mr-5">
           {titleTop}
         </h1>
-        <p className="text-white sm:text-xs md:text-sm lg:text-sm mr-5">
+        <p className="text-white sm:text-sm md:text-sm lg:text-md mr-5">
           {titleBottom}
         </p>
       </div>

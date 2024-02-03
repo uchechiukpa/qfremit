@@ -15,9 +15,9 @@ module.exports = {
     screens: {
       sm: {max: "789px"},
 
-      md: {min: "790px" , max: "1024px"},
+      md: {min: "790px" , max: "1023px"},
 
-      lg: {min:"1025px"},
+      lg: {min:"1024px"},
     },
     fontFamily: {
       manrope: ["Manrope"],

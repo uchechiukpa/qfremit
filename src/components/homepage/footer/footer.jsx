@@ -41,7 +41,7 @@ function Footer() {
         <div className="sm:pt-5 lg:basis-1/2">
           <h3 className="text-white font-bold text-lg">Address</h3>
           <p className="text-white text-sm pt-5">
-             Building 3 City West Business Park Gelderd Road Leeds LS12 6LX
+             Building 3, City West Business Park, Gelderd Road, Leeds ,LS12 6LX
           </p>
         </div>
       </div>
