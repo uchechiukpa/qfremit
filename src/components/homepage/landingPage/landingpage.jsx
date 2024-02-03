@@ -8,7 +8,7 @@ import downicon from "./downicon.png";
 
 const LandingPage = () => {
   return (
-    <div className="flex flex-col sm:px-8 max-w-7xl sm:w-full mx-auto lg:pt-20 bg-white landing-page-container">
+    <div className="flex flex-col sm:px-8 max-w-7xl sm:w-full mx-auto lg:pt-20 bg-white landing-page-container pb-10">
       <div className=" flex flex-row sm:flex-col lg:justify-between justify-center items-center">
         <div className="lg:basis-2/5 md:basis-1/2 sm:basis-1/2 lg:pl-5 md:pl-5">
           <h1 className="text-5xl md:text-4xl sm:text-4xl text-maincolor font-bold sm:w-4/5 font-manrope">
@@ -35,7 +35,7 @@ const LandingPage = () => {
         </div> */}
       </div>
 
-      <div className="flex flex-row lg:justify-between lg:items-center md:justify-between md:items-center sm:flex-col lg:px-8 md:px-8 lg:mt-8 md:mt-8">
+      {/* <div className="flex flex-row lg:justify-between lg:items-center md:justify-between md:items-center sm:flex-col lg:px-8 md:px-8 lg:mt-8 md:mt-8">
         <div className="flex flex-row justify-between py-4 lg:basis-1/2 md:basis-1/2">
           <div className=" sm:basis-1/2">
             <p className="font-medium">You send</p>
@@ -69,7 +69,7 @@ const LandingPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -17,7 +17,7 @@ function Header() {
             <img src={headerlogo} alt="header-logo" width={150} height={150}/>
           </div>
 
-          <h3 className="text-maincolor font-black">QF Remit</h3>
+          {/* <h3 className="text-maincolor font-black">QF Remit</h3> */}
         </div>
 
         <div className=" sm:pr-3 sm:flex sm:flex-col">

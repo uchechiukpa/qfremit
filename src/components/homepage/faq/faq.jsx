@@ -9,7 +9,7 @@ function Faq(){
       <Header />
       <div className="flex flex-col h-screen justify-between">
       <main className="px-5 mx-auto max-w-7xl lg:mt-8 md:mt-8 sm:mt-5 font-manrope">
-        <h1 className="text-maincolor text-4xl text-montserrat">Faq</h1>
+        <h1 className="text-maincolor text-4xl text-montserrat">FAQ</h1>
         <h2 className="text-maincolor text-lg font-bold mt-10">What identification documents can I use to verify my identity?</h2>
         <p className="mt-5 text-sm">
         We accept the following identification documents for identity verification:

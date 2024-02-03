@@ -34,7 +34,8 @@ const Login = () => {
       <div className="login-form-container">
         <form className="login-form" onSubmit={handleSubmit}>
         <h1>Welcome Again!</h1>
-        <p>Don't have an account? <a href="/signup">Sign Up</a></p>
+        <p>Don't have an account? <Link to='/signup'> Sign Up</Link></p>
+          {/* <a href="/signup">Sign Up</a></p> */}
           <h2>Email or Phone number</h2>
           <input
             type="text"
